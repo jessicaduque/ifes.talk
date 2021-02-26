@@ -436,8 +436,11 @@ stories:
   - intent: cumprimento
   - action: utter_cumprimentar
   - intent: informar_nome
+    entities:
+    - nome_usuario: "Paulo"
+  - slot_was_set:
+    - nome_usuario: True
   - action: utter_cumprimentar_usuario_nome
-  - action: action_listen
 - story: O que é o ROD #046
   steps:
     - intent: rod_geral
@@ -964,14 +967,3 @@ stories:
     - intent: SC_aproveitamento
     - action: utter_sistema_chamados
     - action: utter_continuar_conversa
-- story: interactive_story_1
-  steps:
-  - intent: cumprimento
-  - action: utter_cumprimentar
-  - intent: informar_nome
-    entities:
-    - nome_usuario: Paulo
-  - slot_was_set:
-    - nome_usuario: Paulo
-  - action: utter_nao_entendi
-  - action: action_uncheck_uncheck_all
