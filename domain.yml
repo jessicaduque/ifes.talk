@@ -224,10 +224,12 @@ responses:
   utter_campus_anotado:
   - text: Ok, anotei seu campus, obrigado!
   utter_nao_entendi:
-  - text: "Vamos tentar mais uma vez? \nEu não consegui te entender direito. \nMude a frase, pode me ajudar!"
-  - text: "Acho que não te entendi, mas fique calmo!! \nvocê pode falar de novo usando outras palavras ou mudando a frase?"
-  - text: "Hummmm... Não sei se entendi.\n Keep Calm!kkkk \nPode escrever de outra forma?"
+  - text: "Eu não consegui te entender direito. Mude a frase, pode me ajudar!"
+  - text: "Eu não te entendi. Mude a frase, talvez pode me ajudar?"
+  - text: "Acho que não te entendi, mas fique calmo! você pode falar de novo usando outras palavras ou mudando a frase?"
+  - text: "Hummmm... Não sei se entendi. Pode escrever de outra forma?"
   - text: "Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito. \nVocê pode me falar de outro jeito?"
+  - text: "Hummmm... Não sei se entendi. Escreva de outra forma e talvez eu entenda!"
   utter_fica_feliz:
   - text: "Tenta tirar um cochilo. \nÉ importante e faz bem pra pele ;)"
   - text: Sinto muito =/ Se houver algo em que possa te ajudar, é só falar!! =)
