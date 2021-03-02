@@ -55,7 +55,7 @@ stories:
   steps:
   - intent: saber_nome
   - action: utter_informar_nome
-  - action: action_listen
+  - action: utter_continuar_conversa
 - story: nada
   steps:
   - intent: dizer_nada
@@ -967,3 +967,43 @@ stories:
     - intent: SC_aproveitamento
     - action: utter_sistema_chamados
     - action: utter_continuar_conversa
+- story: Aluno ifes
+  steps:
+    - intent: aluno_ifes
+    - action: utter_aluno_ifes
+    - action: action_listen
+- story: Servidor ifes
+  steps:
+    - intent: servidor_ifes
+    - action: utter_servidor_ifes
+    - action: action_listen
+- story: Externo ifes
+  steps:
+    - intent: externo_ifes
+    - action: utter_externo_ifes
+    - action: action_listen
+- story: ROD tecnico
+  steps:
+    - intent: rod_tecnico
+    - action: utter_rod_tecnico
+    - action: action_listen
+- story: ROD graduacao
+  steps:
+    - intent: rod_graduacao
+    - action: utter_rod_graduacao
+    - action: utter_continuar_conversa
+- story: ROD pos graduacao
+  steps:
+    - intent: rod_pos_graduacao
+    - action: utter_rod_pos_graduacao
+    - action: utter_continuar_conversa
+- story: Processo Seletivo
+  steps:
+    - intent: processo_seletivo
+    - action: utter_processo_seletivo
+    - action: utter_continuar_conversa
+- story: nao quero saber mais
+  steps:
+    - action: utter_continuar_conversa
+    - intent: negar
+    - action: utter_despedir

@@ -2580,9 +2580,133 @@ nlu:
       - Quero [fazer] pedido de aproveitamento de disciplinas cursadas [pela internet]
       - Quero [fazer] pedido de aproveitamento de conhecimentos anteriores [pela internet]
       - Quero [fazer] pedido de aproveitamento de experiencias anteriores[pela internet]
-
-
-
+  - intent: aluno_ifes
+    examples: |
+      - Aluno
+      - Aluno do ifes
+      - Sou aluno
+      - Sou aluno do ifes
+      - Estudo no ifes
+      - Estudante
+      - Sou estudante do ifes
+      - Estudante ifes
+      - estudante do ifes
+      - aluna
+      - aluna do ifes
+      - sou aluna
+      - sou aluna do ifes
+  - intent: servidor_ifes
+    examples: |
+      - Servidor
+      - Servidor do ifes
+      - Sou servidor
+      - Sou servidor do ifes
+      - Trabalho no ifes
+      - Professor
+      - Sou professor do ifes
+      - professor ifes
+      - professor do ifes
+      - coordenador
+      - sou coordenador
+      - sou coordenador do ifes
+      - servidora
+      - servidora do ifes
+      - sou servidora
+      - sou servidora do ifes
+      - professora
+      - sou professora do ifes
+      - professora do ifes
+      - coordenadora
+      - cordenadoora do ifes
+      - sou coordenadora
+      - sou cordenador
+      - sou cordenadora
+  - intent: externo_ifes
+    examples: |
+      - Não sou do ifes
+      - nao sou do ifes
+      - ainda nao sou do ifes
+      - nao sou aluno
+      - sou publico externo
+      - ainda quero entrar no ifes
+      - nao estudo no ifes
+      - nao faço parte do ifes
+      - nao estou no ifes
+  - intent: rod_tecnico
+    examples: |
+      - Técnico
+      - tecnico
+      - ROD Técnico
+      - ROD tecnico
+      - Regulamento tecnico
+      - Regulamento cursos tecnicos
+      - Regulamento dos cursos técnicos
+      - regulamento do tecnico
+      - faço curso tecnico
+      - curso tecnico
+      - faço técnico
+      - sou do curso técnico
+      - técnico integrado
+      - sou aluno tecnico
+      - sou aluno do tecnico
+  - intent: rod_graduacao
+    examples: |
+      - Graduação
+      - graduacao
+      - graduasao
+      - ROD Graduação
+      - ROD graduacao
+      - Regulamento graduação
+      - Regulamento cursos de graduacao
+      - Regulamento cursos graduacao
+      - Regulamento dos cursos graduacao
+      - regulamento de graduacao
+      - faço curso de graduação
+      - curso graduação
+      - faço graduação
+      - sou do curso de graduacao
+      - sou da graduação
+      - ensino superior graduação
+      - sou aluno da graduação
+      - sou aluno de graduação
+  - intent: rod_pos_graduacao
+    examples: |
+      - Pós Graduação
+      - pos graduacao
+      - pos graduasao
+      - ROD Pós Graduação
+      - ROD pos graduacao
+      - Regulamento pos graduação
+      - Regulamento cursos de pos graduacao
+      - Regulamento cursos pós graduacao
+      - Regulamento dos cursos pós graduacao
+      - regulamento de pos graduacao
+      - faço curso de pos graduação
+      - curso pos graduação
+      - faço pós graduação
+      - sou do curso de pos graduacao
+      - sou da pos graduação
+      - ensino superior pos graduação
+      - faço pós
+      - faço pos
+      - sou aluno da pós
+  - intent: processo_seletivo
+    examples: |
+      - Processo Seletivo
+      - processos seletivos
+      - Processo seletivo 2021
+      - PS 2021
+      - PS
+      - Proceso seletivo
+      - Prosesso seletivo
+      - processo celetivo
+      - Onde posso saber sobre processo seletivo
+      - Quero saber sobre processo seletivo
+      - informações processo seletivo
+      - Info sobre processo seletivo
+      - processo seletivo alunos
+      - processo seletivo professor
+      - processo seletivo professor substituto
 
 ## sinonimos
   - synonym: bomdia
