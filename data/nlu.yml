@@ -481,6 +481,16 @@ nlu:
 # intents do ROD
   - intent: transferencia_de_outra_escola #001
     examples: |
+      - [Transferência] para o ifes
+      - [Transferência] de outra escola para o ifes
+      - [Transferência] de outra instituição para o ifes
+      - [transferencia] para o ifes
+      - [transferencia] pro ifes
+      - [Transferência] pro ifes
+      - [Transferência] de outra escola pro ifes
+      - [transferencia] de outra escola pro ifes
+      - [transferência] de outra instituição pro ifes
+      - [transferencia] de outra instituicao pro ifes
       - Para o IFES
       - Já comecei o Ensino Médio em outra instituição, mas queria me [transferir] para o Ifes. Como faço?
       - Como faço para me [transferir] para o ifes?
@@ -492,6 +502,15 @@ nlu:
       - Quero [transferir] pro Ifes
   - intent: transferencia_para_outra_escola #002
     examples: |
+      - [Transferência] do ifes para outra escola
+      - [Transferência] do ifes para outra instituição
+      - [Transferencia]do ifes pra outra escola
+      - [transferencia] do ifes pra outra instituição
+      - [transferencia] do ifes proutra escola
+      - [transferencia] do ifes p outra escola
+      - [transferencia] do ifes p outro lugar
+      - [transferencia] do ifes para outro lugar
+      - [transferencia] do ifes
       - Para outra escola
       - O que preciso para me [transferir] do Ifes para outra escola?
       - quero me [transferir] para outra escola
@@ -504,7 +523,11 @@ nlu:
       - me [mudar] para outra escola
   - intent: representantes_reunioes #003
     examples: |
+      - Reuniões dos [repres]
       - Reuniões dos [representantes]
+      - reunioes dos [repres]
+      - reunioes dos [representantes]
+      - reuniao [representante de turma]
       - O [líder de turma] deve participar de quais reuniões?
       - de quais reunioes o [líder de turma] participa
       - o [líder da turma] deve participar de alguma reuniao?
@@ -514,6 +537,11 @@ nlu:
       - se sou [líder], de quais reuniões devo participar?
   - intent: representantes_da_turma #004
     examples: |
+      - Sobre o representante de turma
+      - Sobre os representantes
+      - Sobre [representantes da turma]
+      - Sobre [representante da turma]
+      - sobre os [representantes de turma]
       - Cada turma deve ter um [líder]?
       - Quantos [líderes] têm cada turma?
       - quem é o [líder] da turma?
@@ -643,6 +671,11 @@ nlu:
       - quais os critérios de avaliação das [avaliações]?
       - o que é levado em conta para aprender nas [avaliações]?
       - Conteúdos [avaliações]
+      - conteúdo avaliacoes
+      - conteudo avaliacao
+      - conteudo avaliasoes
+      - conteúdo das avaliacoes
+      - conteúdo das avaliações
   - intent: conteudos_avaliacoes_necessidadades_especificas #013
     examples: |
      - [Avaliação] escolar [NE]
@@ -657,6 +690,9 @@ nlu:
      - Como [avaliações] funcionam para pessoas com [necessidades específicas]
   - intent: quantidade_avaliacoes #014
     examples: |
+      - quantidade [avalicoes]
+      - qtd [avaliações]
+      - qntd [avaliacoes]
       - Quantidade máxima [provas]
       - Quantidade mínima [provas]
       - Qual o máximo de [provas] que podem ser marcadas pelos professores?
@@ -688,6 +724,11 @@ nlu:
       - qual o [valor] máximo que uma [avaliação] pode valer?
       - qual o máximo de [pontos] que as [avaliações] podem ter?
       - [Pontuações] das [avaliações]
+      - pontuacao das [avaliacoes]
+      - pontuacoes das [avaliacoes]
+      - pontuacao da [avaliacao]
+      - pontuação da [avaliação]
+      - pontuações das [avaliação]
   - intent: recuperacao #016
     examples: |
       - recuperação
@@ -778,6 +819,7 @@ nlu:
       - Quando fico de [dep]
       - como fico de [dp]
       - Quando fico de [dependência]
+      - qnd fico de [dependencia]
       - quando eu tenho direito a [dependência]
       - o que acontece se eu tirar [nota] abaixo da média no final do ano
       - o que acontece se eu tirar [nota] abaixo de 60 total
@@ -886,6 +928,9 @@ nlu:
   - intent: dependencia_geral #027
     examples: |
       - O que é [dependência]
+      - O que é a [dependência]
+      - o q é a [dependencia]
+      - oq e a [dependencia]
       - gostaria de saber o que é [dependência]
       - me explique o que é [dependência]
       - me explique sobre [dependência]
@@ -912,6 +957,7 @@ nlu:
       - como funciona o aproveitamento de [matérias]?
   - intent: numero_dias_letivos #029
     examples: |
+      - qtd dias letivos
       - Num. de dias letivos
       - Qual o número mínimo de dias letivos no ano?
       - número de dias letivos
@@ -963,8 +1009,23 @@ nlu:
       - quero trancar o curso
       - trancar o curso
       - sobre o trancamento de matricula
+      - Sobre o trancamento de matrícula
+      - sobre trancamento de matricula
+      - sobre trancamento de matrícula
+      - sobre trancar matricula
+      - sobre trancar matrícula
   - intent: quando_proibido_trancamento_matricula #032
     examples: |
+      - Quando não pode trancar matrícula
+      - quando não pode trancar matricula
+      - quando n pode trancar matricula
+      - quando nn pode trancar matricula
+      - qnd não pode trancar matrícula
+      - qnd nn pd trancar matricula
+      - Quando não posso trancar matrícula
+      - quando nao posso trancar matricula
+      - qnd nao posso trancar matricula
+      - qnd nn posso trancar matricula
       - quando o [discente] não pode cancelar matricula
       - em que circunstâncias não posso trancar a minha matrícula
       - quando não posso trancar a matrícula
@@ -975,6 +1036,12 @@ nlu:
       - condições para trancar matrícula
   - intent: cancelamento_matricula #033
     examples: |
+      - Cancelamento de Matrícula
+      - Cancelamento da matrícula
+      - Cancelamento de matricula
+      - cancelamento da matricula
+      - cancelar matricula
+      - cancelar matrícula
       - cancelamento de matricula do [discente]
       - por que o [aluno] tem a matricula cancelada
       - por que motivo a matricula do [estudante] pode ser cancelada
@@ -1374,6 +1441,12 @@ nlu:
   - intent: matricula_sobre #056
     examples: |
       - O que é a matrícula?
+      - o que e a matricula
+      - o que e a matricula?
+      - oq é a matrícula?
+      - oq é a matricula
+      - oq e a matricula
+      - oq e a matricla
       - Oq exatamente é a matrícula
       - Como funciona a matrícula para entrar no Ifes?
       - Como é a matrícula do ifes?
@@ -1383,6 +1456,19 @@ nlu:
       - oq eh a matriculacao no ifes?
   - intent: reintegracao_matricula_sobre #057
     examples: |
+      - O que é a reintegração da matrícula
+      - O que é a reintegracao da matricula
+      - o que e a reintegracao da matricula
+      - oq é a reintegracao da matricula
+      - O que é reiintegração de matrícula
+      - O que é reintegração da matrícula
+      - O que e reintegracao de matricula
+      - O que e reintegracao da matricula
+      - o q é reintegração de matrícula
+      - o q e reintegracao de matricula
+      - oq é reintegracao de matricula
+      - oq é reintegracao da matricula
+      - o q é reintegração da matrícula
       - Como o [aluno] pode desfazer cancelamento de matricula?
       - O [estudante] pode reativar a matricula?
       - O que é a reintegração da matrícula
@@ -1393,6 +1479,14 @@ nlu:
       - Existe algo que volta atrás no cancelamento da matrícula?
   - intent: reintegracao_matricula_condicoes #058
     examples: |
+      - Quando pode fazer a reintegração da matrícula?
+      - Quando pode fazer a reintegracao da matricula?
+      - quando pode fazer a reintegração da matrícula
+      - quando pode fazer a reintegracao da matricula
+      - quando pode fazer reintegracao da matricula
+      - quando pode fazer reintegração da matrícula?
+      - qnd pode fzr a reintegração da matrícula?
+      - qnd pd fzr reintegracao de matricula 
       - Quando posso pedir a reintegração da minha matrícula?
       - Se cancelei minha matrícula, quais as condições para eu voltar atrás?
       - Condições para reintegracao de matricula
@@ -2005,12 +2099,6 @@ nlu:
       - qualificacao
       - qualificacão
       - qualificaçao
-      - graduação
-      - pós-graduação
-      - graduaçao e pós-graduação
-      - pos graduação
-      - pós graduacao
-      - graduacão
   - intent: responsabilidade_social #095
     examples: |
       - responsabilidade
@@ -2053,6 +2141,7 @@ nlu:
       - Gostaria de fazer uma [mudança]
   - intent: representantes #2
     examples: |
+      - representante de turma
       - [Representantes]
       - [repre de turma]
       - [representantes de turma]
@@ -2063,13 +2152,14 @@ nlu:
       - os [representantes da turma]
   - intent: avaliacoes #3
     examples: |
-      - Avaliações
-      - as avaliações
-      - provas
-      - prova
-      - sobre avaliações
+      - [avaliacoes]
+      - [Avaliações]
+      - as [avaliações]
+      - [provas]
+      - [prova]
+      - sobre [avaliações]
       - atividades avaliativas
-      - sobre as provas
+      - sobre as [provas]
   - intent: pontuacoes #4
     examples: |
       - [Pontuações]
@@ -2089,6 +2179,9 @@ nlu:
       - quero conversar sobre a [dependência]
   - intent: revisao_notas #6
     examples: |
+      - revisao de notas
+      - revisao notas
+      - Revisão de notas
       - Revisão da minha [nota]
       - Não concordo com minha [nota], o que faço?
       - posso pedir a revisão da minha [nota]
@@ -2123,7 +2216,9 @@ nlu:
   - intent: trancamento_matricula #8.1.5
     examples: |
       - Trancamento de matrícula
+      - trancamento de matricula
       - trancamento da matricula
+      - trancamento da matrícula
       - trancar matricula
       - matricula trancamento
       - trancar a matrícula
@@ -2749,6 +2844,7 @@ nlu:
       - representante da turma
       - representantes de turma
       - representantes da turma
+      - repre
       - repres
       - repres de turma
       - repres da turma
@@ -2984,4 +3080,3 @@ nlu:
     examples: |
       - campus
       - campi
-      - curso
